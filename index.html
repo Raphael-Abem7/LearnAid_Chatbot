@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Chatbot-Frontend/icon.png">
+    <link rel="stylesheet" href="Chatbot-Frontend/styling.css">
+    <title>LearnAid - Chatbot/AI tutor for SHS students</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img id="logo" src="Chatbot-Frontend/logo.png", alt="LearnAid">
+            <hr>
+            <h1 id="description">Helpmate for SHS students</h1>
+            <div class="nav-menu">
+                <ul id="menu-links">
+                    <li><a href="About.html">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <div class="text">
+            <h2 id="title">Hi! Nice to meet you!</h2>
+            <h3 id="subtitle">I am LearnAid, your study guide 
+                for SHS-related subject matter.
+                <br>How may I help you?</h3>
+        </div>
+        <div id="chat"></div>
+            <div class="input">
+                <textarea id="question" placeholder="Hi. Please input your question." rows="1"></textarea>
+                <button id="send-btn">
+                    <svg id="button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                    </svg>
+                </button>
+            </div>
+    </main>
+    <footer>
+        <script src="JS-libraries/marked.min.js"></script>
+        <script src="JS-libraries/purify.min.js"></script>
+        <script src="Chatbot-Frontend/javasc.js"></script>
+    </footer>
+</body>
+</html>
